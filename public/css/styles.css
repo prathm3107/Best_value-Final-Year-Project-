@@ -1,0 +1,77 @@
+nav{
+  background-color: #ff4c68;
+}
+
+.container-fluid{
+  padding: 3% 22% 6%;
+}
+
+.title{
+  margin-top: 10%;
+}
+
+.input-group{
+  margin-top: 5%;
+}
+
+.title-container{
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.features-container{
+  text-align: center;
+  line-height: 1.5;
+}
+
+.navbar-brand{
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-top: 1.5%;
+  padding-left: 3%;
+  padding-bottom: 1.5%;
+}
+
+.navbar-content{
+  padding-top: 1.5%;
+  padding-right: 3%;
+  padding-bottom: 1.5%;
+}
+
+.title-text{
+  text-align: left;
+  color: #fff;
+  line-height: 1.5;
+  padding-bottom: 6%;
+}
+
+.search-bar{
+  padding-top: 7.5%;
+  padding-bottom: 10%;
+}
+
+.features-container{
+  padding: 7% 15%;
+}
+
+.features-row{
+  padding: 5%;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.feature-icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.feature-icon:hover{
+  color: #ff4c68;
+}
+
+#footer{
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background-color: #ff4c68;
+}

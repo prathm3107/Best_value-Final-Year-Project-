@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Best Value</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg sticky-top navbar-dark">
+    <a class="navbar-brand" href="index.html">Best Value</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-contents" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse navbar-content" id="navbar-contents">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#features">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="signup.html">Register</a>
+        </li>
+    </div>
+  </nav>
+
+  <!-- Title Section -->
+  <div class="title-container container-fluid" id="title">
+    <div class="title row">
+      <div class="col-lg-6">
+        <h1 class="title-text">Find the best price for your product.</h1>
+      </div>
+      <div class="col-lg-6">
+        <img src="images/compare.png" alt="">
+      </div>
+    </div>
+    <form action="/" method="post">
+      <div class="row">
+        <div class="input-group col-lg-11">
+          <input class="form-control py-2 border-right-0 border" type="search" placeholder="search" id="searchquery">
+          <span class="input-group-append">
+            <button class="btn btn-light border-left-0 border" type="button" onclick="record(this)">
+              <i class="fa fa-microphone"></i>
+            </button>
+          </span>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <!-- Features Section -->
+  <div class="features-container container-fluid" id="features">
+    <div class="row features-row">
+      <div class="features col-lg-3 col-md-6 col-sm-12">
+        <i class="feature-icon fas fa-tag fa-4x"></i>
+        <h3>Lowest Prices.</h3>
+        <p>Compare prices for your product from leading shopping websites at a single place.</p>
+      </div>
+      <div class="features col-lg-3 col-md-6 col-sm-12">
+        <i class="feature-icon fas fa-bell fa-4x"></i>
+        <h3>Notifications.</h3>
+        <p>Get notified when the price drops for the product you searched.</p>
+      </div>
+      <div class="features col-lg-3 col-md-6 col-sm-12">
+        <i class="feature-icon fas fa-bookmark fa-4x"></i>
+        <h3>Wishlists.</h3>
+        <p>Save the products in your wishlist to check out the price later.</p>
+      </div>
+      <div class="features col-lg-3 col-md-6 col-sm-12">
+        <i class="feature-icon fas fa-question fa-4x"></i>
+        <h3>Price Prediction.</h3>
+        <p>Get an approximate price drop that can be expected on the product you search.</p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Contact Us Section -->
+
+  <footer id="footer">
+    <h4>Copyright</h4>
+  </footer>
+
+  <!-- Javascript -->
+  <script type="text/javascript" src="js/voice_search.js"></script>
+  <script src="https://kit.fontawesome.com/cbfce28df6.js" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+
+</html>
